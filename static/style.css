@@ -1,0 +1,8 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:20px;background:#f5f7fb}
+.container{max-width:1000px;margin:0 auto;background:#fff;padding:20px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.controls{display:flex;gap:24px}
+.controls > div{flex:1}
+.results{margin-top:16px}
+#heatmapContainer img{border:1px solid #ddd}
+button{background:#007bff;color:#fff;border:none;padding:8px 12px;border-radius:4px;cursor:pointer}
+button:hover{opacity:0.95}

@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>AI Chip Defect Detection</title>
+	<link rel="stylesheet" href="/static/style.css">
+	<script src="/static/app.js" defer></script>
+</head>
+<body>
+	<div class="container">
+		<h1>AI Chip Defect Detection</h1>
+		<div class="controls">
+			<div>
+				<h3>Live Camera</h3>
+				<video id="video" autoplay playsinline width="320" height="240"></video>
+				<div>
+					<button id="captureBtn">Capture & Analyze</button>
+				</div>
+			</div>
+			<div>
+				<h3>Upload Image</h3>
+				<input type="file" id="fileInput" accept="image/*" />
+				<button id="uploadBtn">Analyze Upload</button>
+			</div>
+		</div>
+
+		<div class="results">
+			<h2>Result</h2>
+			<div id="resultText">No analysis yet.</div>
+			<div id="heatmapContainer"></div>
+			<div id="reportContainer"></div>
+		</div>
+	</div>
+</body>
+</html>
